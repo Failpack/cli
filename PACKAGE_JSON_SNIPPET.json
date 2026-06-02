@@ -1,0 +1,38 @@
+{
+  "name": "@failpack/cli",
+  "version": "0.0.3",
+  "description": "Create safe, shareable bug context packages for AI, GitHub issues and support.",
+  "type": "module",
+  "bin": {
+    "failpack": "./bin/failpack.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "failpack",
+    "cli",
+    "debugging",
+    "bug-report",
+    "ai",
+    "developer-tools",
+    "logs",
+    "repro",
+    "github-issues"
+  ],
+  "author": "Paweł Gregorczyk",
+  "license": "MIT",
+  "homepage": "https://failpack.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Failpack/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Failpack/cli/issues"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
