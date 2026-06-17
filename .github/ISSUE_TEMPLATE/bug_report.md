@@ -29,19 +29,34 @@ What happened instead?
 - OS:
 - Node.js version:
 - npm version:
-- FailPack version:
+- FailPack CLI version:
+- Shell/terminal:
 
 ## Command
 
 ```bash
-failpack
+failpack capture --cmd "npm run build"
+```
+
+## Generated report
+
+If a local report was created, include the report version or path.
+
+```text
+.failpack/reports/...
 ```
 
 ## Logs
 
-Paste relevant logs here.
+Paste only relevant sanitized logs here.
 
-Please remove sensitive information before posting.
+Do not include secrets, tokens, private keys, `.env` files, credentials or sensitive customer data.
+
+## Status page
+
+If this looks like a service outage, check first:
+
+https://status.failpack.dev
 
 ## Additional context
 
